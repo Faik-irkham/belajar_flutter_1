@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
             decoration: BoxDecoration(
               color: const Color(0xff000000),
               borderRadius: BorderRadius.circular(12),
-              image: DecorationImage(
+              image: const DecorationImage(
                 image: AssetImage('assets/profile.jpeg'),
               ),
             ),
